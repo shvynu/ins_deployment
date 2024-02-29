@@ -21,7 +21,7 @@ Predictive maintenance is a technique used to predict when equipment failure mig
 
 ## Requirements
 
-- Python 3.x
+- Python 3.9 or latest version available
 - Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, scikit-plot
 
 ## Usage
