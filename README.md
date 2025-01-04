@@ -1,48 +1,45 @@
-# Predictive Maintenance Analysis
+# Predictive Maintenance Analysis: Research Notebook
 
-This repository contains a Python script for performing predictive maintenance analysis using machine learning techniques. The script aims to predict machine failures based on various sensor readings and operational parameters.
+Welcome to the **Predictive Maintenance Analysis** repository! This research notebook is designed as a basic machine learning project to explore predictive maintenance techniques, offering a foundation for deeper exploration into this critical domain.
 
-## Overview
+---
 
-Predictive maintenance is a technique used to predict when equipment failure might occur so that maintenance can be performed just in time to prevent costly downtime. This script utilizes machine learning algorithms to analyze historical data and predict machine failures.
+## 🔍 Overview
 
-## Features
+Predictive maintenance employs machine learning to forecast equipment failures by analyzing sensor readings and operational data. This research notebook provides a step-by-step workflow to get started with predictive maintenance, focusing on basic data preparation, model building, and evaluation.
 
-- Data loading and exploration
-- Data cleaning and preprocessing
-- Data normalization
-- Test and train split
-- Model training without balancing
-- Tuning and balancing model with SMOTE
-- Fitting the model with ADASYN oversampling
-- ROC score without and with sampling for Decision Tree models
-- ROC curve for Random Forest Classifier using ADASYN oversampling
-- Plotting accuracy graphs for different models
+---
 
-## Requirements
+## ✨ Steps
 
-- Python 3.9 or latest version available
-- Libraries: pandas, numpy, matplotlib, seaborn, scikit-learn, imbalanced-learn, scikit-plot
+- **Data Preparation**
+  - Load, explore, and clean your dataset.
+  - Normalize features for effective model training.
 
-## Usage
+- **Model Development**
+  - Train machine learning models on imbalanced datasets.
+  - Apply data balancing techniques such as SMOTE and ADASYN.
+  - Evaluate model performance using ROC curves and accuracy metrics.
 
-1. Clone the repository:
+- **Visualization**
+  - Compare model performance with and without oversampling.
+  - Generate visual insights for better interpretability.
 
-2. Navigate to the project directory:
+---
 
-3. Install the required dependencies:
+## 🛠 Requirements
 
-4. Place your dataset named "data.csv" in the project directory, you can prefer this dataset if you want (https://www.kaggle.com/code/zakikurdya/predictive-maintenance)
+Make sure you have the following installed:
 
-5. Run the Python script:
+- **Python 3.9** or later  
+- Libraries:  
+  `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `imbalanced-learn`, `scikit-plot`
 
-6. Follow the prompts and input data as required.
+---
 
-## License
+## 🚀 Getting Started
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-
-
-
-
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/shvynu/predictive-maintenance.git
+   cd predictive-maintenance
